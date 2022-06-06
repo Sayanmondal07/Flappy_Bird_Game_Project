@@ -9,14 +9,14 @@ from pygame.locals import *
 
 #Glabal variables for the game
 FPS = 36
-SCREENWIDTH = 389
+SCREENWIDTH = 289
 SCREENHEIGHT = 511
 SCREEN = pygame.display.set_mode((SCREENWIDTH, SCREENHEIGHT))
 GROUNDY = SCREENHEIGHT * 0.8
 GAME_SPRITES = {}
 GAME_SOUNDS = {}
 PLAYER = 'C:\\Users\\DELL SSD\\PycharmProjects\\beginnersProg\\GamingProject_flaappyBird\\ImageGaming\\bird.png.png'
-BACKGROUND = 'C:\\Users\\DELL SSD\\PycharmProjects\\beginnersProg\\GamingProject_flaappyBird\\ImageGaming\\background.png.jpg'
+BACKGROUND = 'C:\\Users\\DELL SSD\\PycharmProjects\\beginnersProg\\GamingProject_flaappyBird\\ImageGaming\\bg.jpg'
 PIPE = 'C:\\Users\\DELL SSD\\PycharmProjects\\beginnersProg\\GamingProject_flaappyBird\\ImageGaming\\pipe.png.png'
 
 def welcomeScreen():
